@@ -45,7 +45,7 @@ var class_t_m_c4671 =
       [ "fluxbrake", "class_t_m_c4671.html#a383a82ab842490e325553e9365028a27a84f578fe2ad2bb2f2e81323b035b5ce9", null ],
       [ "pwmfreq", "class_t_m_c4671.html#a383a82ab842490e325553e9365028a27ae92b8d7a8bc2d52e63a10661d1fcf8cb", null ]
     ] ],
-    [ "TMC4671", "class_t_m_c4671.html#aff75030b94a5d49cd959c1f53c47be32", null ],
+    [ "TMC4671", "class_t_m_c4671.html#ac6ab6bcc9dc3c8eb9c6f1730cb08215e", null ],
     [ "~TMC4671", "class_t_m_c4671.html#a776fa9a0e9e0f2b15544dfdd4f043138", null ],
     [ "autohome", "class_t_m_c4671.html#a1773c150e154369cceb4c02cab6297ef", null ],
     [ "bangInitEnc", "class_t_m_c4671.html#a3549a94f67b67c91a42730542970b613", null ],
@@ -115,6 +115,7 @@ var class_t_m_c4671 =
     [ "pidAutoTune", "class_t_m_c4671.html#a0b152793efe8b12d97ef0159d2e4a0b8", null ],
     [ "pingDriver", "class_t_m_c4671.html#a78f2f1e72c9cd1eca1cc062db601075a", null ],
     [ "posToEnc", "class_t_m_c4671.html#ad39175477b1007cc9ce5576f7866d435", null ],
+    [ "rampFlux", "class_t_m_c4671.html#a9c54dffe76d1ba122a71ea56faade97e", null ],
     [ "reachedPosition", "class_t_m_c4671.html#a355e2fec628b4480084724bcee003049", null ],
     [ "readFlags", "class_t_m_c4671.html#ad5697bdafc3ae2e1d4a0dccbf7ed51e6", null ],
     [ "readReg", "class_t_m_c4671.html#af11f8cba5111e5f4d502adab3698d467", null ],

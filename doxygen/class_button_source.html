@@ -142,6 +142,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a105599e99ab0e4244a531c2286f2ffa2 inherit pub_methods_class_persistent_storage"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8187136adfa89fca9ddee2578f6eb68 inherit pub_methods_class_persistent_storage"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_persistent_storage.html#aa8187136adfa89fca9ddee2578f6eb68">restoreFlash</a> ()</td></tr>
 <tr class="separator:aa8187136adfa89fca9ddee2578f6eb68 inherit pub_methods_class_persistent_storage"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5a3b2fe8e28d265bb818d084fa82039 inherit pub_methods_class_persistent_storage"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_persistent_storage.html#ad5a3b2fe8e28d265bb818d084fa82039">restoreFlashDelayed</a> ()</td></tr>
+<tr class="separator:ad5a3b2fe8e28d265bb818d084fa82039 inherit pub_methods_class_persistent_storage"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -153,11 +155,15 @@ Static Public Member Functions</h2></td></tr>
 <tr class="inherit_header pub_static_methods_class_persistent_storage"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_class_persistent_storage')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="class_persistent_storage.html">PersistentStorage</a></td></tr>
 <tr class="memitem:a14700f8511d8aaea5d5b29632b371eb9 inherit pub_static_methods_class_persistent_storage"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; <a class="el" href="class_persistent_storage.html">PersistentStorage</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_persistent_storage.html#a14700f8511d8aaea5d5b29632b371eb9">getFlashHandlers</a> ()</td></tr>
 <tr class="separator:a14700f8511d8aaea5d5b29632b371eb9 inherit pub_static_methods_class_persistent_storage"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a234d2bb4384efe326c4f83b3c372e565 inherit pub_static_methods_class_persistent_storage"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_persistent_storage.html#a234d2bb4384efe326c4f83b3c372e565">restoreFlashStartupCb</a> ()</td></tr>
+<tr class="separator:a234d2bb4384efe326c4f83b3c372e565 inherit pub_static_methods_class_persistent_storage"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:a92800ff703bb9c880595a12d3c8a9008"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_class_identifier.html">ClassIdentifier</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_button_source.html#a92800ff703bb9c880595a12d3c8a9008">info</a></td></tr>
 <tr class="separator:a92800ff703bb9c880595a12d3c8a9008"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76259eb89fcb9379b83b98083ca2f748"><td class="memItemLeft" align="right" valign="top">static const std::vector&lt; <a class="el" href="structclass__entry.html">class_entry</a>&lt; <a class="el" href="class_button_source.html">ButtonSource</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_button_source.html#a76259eb89fcb9379b83b98083ca2f748">all_buttonsources</a></td></tr>
+<tr class="separator:a76259eb89fcb9379b83b98083ca2f748"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_attribs_class_choosable_class"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_class_choosable_class')"><img src="closed.png" alt="-"/>&#160;Static Public Attributes inherited from <a class="el" href="class_choosable_class.html">ChoosableClass</a></td></tr>
 <tr class="memitem:a13914185ad8fcd65474c4e7e981d4c2b inherit pub_static_attribs_class_choosable_class"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_class_identifier.html">ClassIdentifier</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_choosable_class.html#a13914185ad8fcd65474c4e7e981d4c2b">info</a></td></tr>
 <tr class="separator:a13914185ad8fcd65474c4e7e981d4c2b inherit pub_static_attribs_class_choosable_class"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -170,6 +176,15 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a7b2fa7906bfe4a9081c168a1da1d460a inherit pro_attribs_class_choosable_class"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_choosable_class.html#a7b2fa7906bfe4a9081c168a1da1d460a">selectionId</a></td></tr>
 <tr class="memdesc:a7b2fa7906bfe4a9081c168a1da1d460a inherit pro_attribs_class_choosable_class"><td class="mdescLeft">&#160;</td><td class="mdescRight">Should only be written by <a class="el" href="class_class_chooser.html">ClassChooser</a> during creation.  <a href="class_choosable_class.html#a7b2fa7906bfe4a9081c168a1da1d460a">More...</a><br /></td></tr>
 <tr class="separator:a7b2fa7906bfe4a9081c168a1da1d460a inherit pro_attribs_class_choosable_class"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_class_persistent_storage"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_persistent_storage')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_persistent_storage.html">PersistentStorage</a></td></tr>
+<tr class="memitem:a5c85ad9b726cba837b9c100d6752a8b6 inherit pro_attribs_class_persistent_storage"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_persistent_storage.html#a5c85ad9b726cba837b9c100d6752a8b6">restoreDelayedFlag</a> = false</td></tr>
+<tr class="separator:a5c85ad9b726cba837b9c100d6752a8b6 inherit pro_attribs_class_persistent_storage"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_static_attribs_class_persistent_storage"><td colspan="2" onclick="javascript:toggleInherit('pro_static_attribs_class_persistent_storage')"><img src="closed.png" alt="-"/>&#160;Static Protected Attributes inherited from <a class="el" href="class_persistent_storage.html">PersistentStorage</a></td></tr>
+<tr class="memitem:a8d98e194842128a2af817341eba58292 inherit pro_static_attribs_class_persistent_storage"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_persistent_storage.html#a8d98e194842128a2af817341eba58292">startupComplete</a> = false</td></tr>
+<tr class="separator:a8d98e194842128a2af817341eba58292 inherit pro_static_attribs_class_persistent_storage"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >A button source can return up to 64 buttons </p>
@@ -372,6 +387,51 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a76259eb89fcb9379b83b98083ca2f748" name="a76259eb89fcb9379b83b98083ca2f748"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76259eb89fcb9379b83b98083ca2f748">&#9670;&nbsp;</a></span>all_buttonsources</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::vector&lt; <a class="el" href="structclass__entry.html">class_entry</a>&lt; <a class="el" href="class_button_source.html">ButtonSource</a> &gt; &gt; ButtonSource::all_buttonsources</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=</div>
+<div class="line">{</div>
+<div class="line"><span class="preprocessor">#ifdef LOCALBUTTONS</span></div>
+<div class="line">        add_class&lt;LocalButtons,ButtonSource&gt;(0),</div>
+<div class="line"><span class="preprocessor">#endif</span></div>
+<div class="line"><span class="preprocessor">#ifdef SPIBUTTONS</span></div>
+<div class="line">        add_class&lt;SPI_Buttons_1,ButtonSource&gt;(1),</div>
+<div class="line"><span class="preprocessor">#endif</span></div>
+<div class="line"><span class="preprocessor">#ifdef SPIBUTTONS2</span></div>
+<div class="line">        add_class&lt;SPI_Buttons_2,ButtonSource&gt;(2),</div>
+<div class="line"><span class="preprocessor">#endif</span></div>
+<div class="line"><span class="preprocessor">#ifdef SHIFTERBUTTONS</span></div>
+<div class="line">        add_class&lt;ShifterAnalog,ButtonSource&gt;(3),</div>
+<div class="line"><span class="preprocessor">#endif</span></div>
+<div class="line"><span class="preprocessor">#ifdef PCF8574BUTTONS</span></div>
+<div class="line">        add_class&lt;PCF8574Buttons,ButtonSource&gt;(4),</div>
+<div class="line"><span class="preprocessor">#endif</span></div>
+<div class="line"><span class="preprocessor">#ifdef CANBUTTONS</span></div>
+<div class="line">        add_class&lt;CanButtons,ButtonSource&gt;(5),</div>
+<div class="line"><span class="preprocessor">#endif</span></div>
+<div class="line"><span class="preprocessor">}</span></div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="_button_source_8h_source.html#l00035">35</a> of file <a class="el" href="_button_source_8h_source.html">ButtonSource.h</a>.</p>
+
+</div>
+</div>
 <a id="a5fb449625596f8cfa3d60e662cb9ec28" name="a5fb449625596f8cfa3d60e662cb9ec28"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5fb449625596f8cfa3d60e662cb9ec28">&#9670;&nbsp;</a></span>btnnum</h2>
 
@@ -392,7 +452,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_button_source_8h_source.html#l00036">36</a> of file <a class="el" href="_button_source_8h_source.html">ButtonSource.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_button_source_8h_source.html#l00038">38</a> of file <a class="el" href="_button_source_8h_source.html">ButtonSource.h</a>.</p>
 
 </div>
 </div>
@@ -429,6 +489,7 @@ Protected Attributes</h2></td></tr>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="_button_source_8h_source.html">ButtonSource.h</a></li>
 <li><a class="el" href="_button_source_8cpp_source.html">ButtonSource.cpp</a></li>
+<li><a class="el" href="_button_sources_8cpp_source.html">ButtonSources.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

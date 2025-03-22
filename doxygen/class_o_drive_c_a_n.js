@@ -2,8 +2,8 @@ var class_o_drive_c_a_n =
 [
     [ "ODriveCAN", "class_o_drive_c_a_n.html#a6a60c243297d469da6c834be6cbc3095", null ],
     [ "~ODriveCAN", "class_o_drive_c_a_n.html#ab24155025fc8b68bfba89c836cc13585", null ],
-    [ "canErrorCallback", "class_o_drive_c_a_n.html#a2bb257db85a8e4f4916bef31f1a3f81d", null ],
-    [ "canRxPendCallback", "class_o_drive_c_a_n.html#a42656b61d844150c463b53fdfde72e9b", null ],
+    [ "canErrorCallback", "class_o_drive_c_a_n.html#a861dc04714644be767c8b33c9260dcb7", null ],
+    [ "canRxPendCallback", "class_o_drive_c_a_n.html#a140bf2b0a5c42ce1a9b1009c5bcc111b", null ],
     [ "command", "class_o_drive_c_a_n.html#aca23d7dbcc4185274da3c1e7925c012c", null ],
     [ "getCpr", "class_o_drive_c_a_n.html#ae02fc8301756d45fdc59d37ba9fe869a", null ],
     [ "getEncoder", "class_o_drive_c_a_n.html#a9e51bae8612eb81442dfbf6c515b9d41", null ],
@@ -32,7 +32,6 @@ var class_o_drive_c_a_n =
     [ "stopMotor", "class_o_drive_c_a_n.html#a39d21bec378b965b922487799e48c187", null ],
     [ "turn", "class_o_drive_c_a_n.html#a81f48f403ce40c9d8fd8271be4e2aa64", null ],
     [ "active", "class_o_drive_c_a_n.html#a1bfaf6fd8cbbe41bc76794282a729e4c", null ],
-    [ "baudrate", "class_o_drive_c_a_n.html#ae32139c4aeb9f583716b3448564a97c8", null ],
     [ "connected", "class_o_drive_c_a_n.html#aab5960fa49c4423f4c9b4bdc439dad96", null ],
     [ "errors", "class_o_drive_c_a_n.html#afa16a0b808a2c7a4ae5f5ada1ed40718", null ],
     [ "filterId", "class_o_drive_c_a_n.html#a3c1589ddd73aae0236de86249f69d5d9", null ],
@@ -52,6 +51,7 @@ var class_o_drive_c_a_n =
     [ "port", "class_o_drive_c_a_n.html#a7103ed2e8be0eb5167cdae98182cd420", null ],
     [ "posOffset", "class_o_drive_c_a_n.html#a4baab55dfa6ffd3ef3dc7b4948d5ab43", null ],
     [ "posWaiting", "class_o_drive_c_a_n.html#abc32713b918be209b489f1d6edcd10fd", null ],
+    [ "reloadPosAfterStartup", "class_o_drive_c_a_n.html#ab018ceb789435d95422e90946aa6d3b7", null ],
     [ "state", "class_o_drive_c_a_n.html#a35edaf845ad49346fbf4f21d10de63dc", null ],
     [ "waitReady", "class_o_drive_c_a_n.html#abe3a9835011833c6535f5dca16a89973", null ]
 ];
