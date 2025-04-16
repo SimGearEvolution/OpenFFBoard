@@ -5,7 +5,7 @@ var structehci__cap__registers__t =
     [ "caplength", "structehci__cap__registers__t.html#a059dcf73feb1bb8e8df7a631f605c43a", null ],
     [ "eecp", "structehci__cap__registers__t.html#ab5ca77c2f5c5d107aa8c31a5fe48e64a", null ],
     [ "hccparams", "structehci__cap__registers__t.html#abaf10f1a93238a8bd02c00dfb6aaa218", null ],
-    [ "hccparams_bm", "structehci__cap__registers__t.html#aba1e43a93fddaa50673c1258809db1ec", null ],
+    [ "hccparams_bm", "structehci__cap__registers__t.html#a476ad79ee01e2e27707c58b1d0b7423f", null ],
     [ "hciversion", "structehci__cap__registers__t.html#acdec864b5ea18c1dffc6e995391e1dfe", null ],
     [ "hcsp_portroute", "structehci__cap__registers__t.html#a9f979aa0ec2f9273789b08453abffff0", null ],
     [ "hcsparams", "structehci__cap__registers__t.html#aebce4f2a8a76c463408b46b46af10234", null ],

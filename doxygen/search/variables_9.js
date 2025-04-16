@@ -78,7 +78,7 @@ var searchData=
   ['int_5fthreshold_75',['int_threshold',['../structehci__registers__t.html#a8135b282b78ed5780af1d0b364e80ec1',1,'ehci_registers_t']]],
   ['inten_76',['inten',['../structehci__registers__t.html#af3f7962511e55a1f9356708352df025a',1,'ehci_registers_t']]],
   ['inten_77',['INTEN',['../structdcd__registers__t.html#a7056a559ce69f85b68804e617aed1216',1,'dcd_registers_t']]],
-  ['inten_5fbm_78',['inten_bm',['../structehci__registers__t.html#a5c0a240e170486a33c773a90b6f6851f',1,'ehci_registers_t']]],
+  ['inten_5fbm_78',['inten_bm',['../structehci__registers__t.html#a5c2723a142da3356ce4f7b1a3b227753',1,'ehci_registers_t']]],
   ['intenb0_79',['INTENB0',['../struct__ccrx__evenaccess.html#a97f133bb156c913ff7e53a89fd561582',1,'_ccrx_evenaccess']]],
   ['intenb0_5fb_80',['INTENB0_b',['../struct__ccrx__evenaccess.html#a98fd17e2160cc9c01945e6261fb7637e',1,'_ccrx_evenaccess']]],
   ['intenb1_81',['INTENB1',['../struct__ccrx__evenaccess.html#a529cd88f17346596c992dae68120c273',1,'_ccrx_evenaccess']]],

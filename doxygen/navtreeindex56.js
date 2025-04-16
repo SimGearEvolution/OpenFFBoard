@@ -1,5 +1,6 @@
 var NAVTREEINDEX56 =
 {
+"structhub__status__response__t.html#ae1e0e79c620d9a93220cffd68f934a25":[2,5,0,3],
 "structhub__status__response__t.html#aeb3e4a317583445868bfe67d77a53f15":[2,5,0,5],
 "structhw__endpoint.html":[4,0,164],
 "structhw__endpoint.html#a0c98fea4c801a98195ffd478537adb9d":[4,0,164,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX56 =
 "structrndis__msg__initialize__cmplt__t.html#a7e7752760ad47328663581c48f9e79f2":[2,2,0,0,1,3],
 "structrndis__msg__initialize__cmplt__t.html#a81708cf3ff8c5e549dafb755fcb2db67":[2,2,0,0,1,7],
 "structrndis__msg__initialize__cmplt__t.html#ac205673f57608b77f23d72a426817bf6":[2,2,0,0,1,1],
-"structrndis__msg__initialize__cmplt__t.html#ac6a9a2ab47a2449b0629fcee8178c7f8":[2,2,0,0,1,0],
-"structrndis__msg__initialize__cmplt__t.html#adc169555086cc6fce1b88a3326fd7ed5":[2,2,0,0,1,5]
+"structrndis__msg__initialize__cmplt__t.html#ac6a9a2ab47a2449b0629fcee8178c7f8":[2,2,0,0,1,0]
 };
