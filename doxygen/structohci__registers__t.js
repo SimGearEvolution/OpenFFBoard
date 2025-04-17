@@ -70,7 +70,7 @@ var structohci__registers__t =
     [ "rh_status", "structohci__registers__t.html#a68eefdc7301b3dc98d4426c2e8fff331", null ],
     [ "rh_status_bit", "structohci__registers__t.html#a44e0548b5bf9a3cc9bcbe224ee2d508b", null ],
     [ "rhport_status", "structohci__registers__t.html#ab5e8f5c00b7d9eb24b8c0942d5fc6ff8", null ],
-    [ "rhport_status_bit", "structohci__registers__t.html#a1ab03e82c1ab704078794432642e6240", null ],
+    [ "rhport_status_bit", "structohci__registers__t.html#a97142c4e4cf9f37779e75b21d4807f56", null ],
     [ "scheduling_overrun_count", "structohci__registers__t.html#a9f697464969dd2e07a1172e2b69cd741", null ],
     [ "TU_RESERVED", "structohci__registers__t.html#adf518801eb293d1c952afef38fdbace3", null ]
 ];
