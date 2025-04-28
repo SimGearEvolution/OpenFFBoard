@@ -2677,18 +2677,18 @@ $(document).ready(function(){initNavTree('_t_m_c4671_8cpp_source.html',''); init
 <div class="line"><a id="l02779" name="l02779"></a><span class="lineno"> 2779</span>    {</div>
 <div class="line"><a id="l02780" name="l02780"></a><span class="lineno"> 2780</span>        <a class="code hl_struct" href="struct_t_m_c4671_hardware_type_conf.html">TMC4671HardwareTypeConf</a> newHwConf = {</div>
 <div class="line"><a id="l02781" name="l02781"></a><span class="lineno"> 2781</span>            .<a class="code hl_variable" href="struct_t_m_c4671_hardware_type_conf.html#abf7034af3f8cc520a81922b183d4436c">hwVersion</a> = <a class="code hl_enumvalue" href="_t_m_c4671_8h.html#a1064cdca049007c828bd4a5b28f51d71a0fdcfe7bc01aadbcbb7ff8c0e1024336">TMC_HW_Ver::v1_2</a>,</div>
-<div class="line"><a id="l02782" name="l02782"></a><span class="lineno"> 2782</span>            .adcOffset = 1000,</div>
+<div class="line"><a id="l02782" name="l02782"></a><span class="lineno"> 2782</span>            .adcOffset = 0,</div>
 <div class="line"><a id="l02783" name="l02783"></a><span class="lineno"> 2783</span>            .thermistor_R2 = 1500,</div>
 <div class="line"><a id="l02784" name="l02784"></a><span class="lineno"> 2784</span>            .thermistor_R = 22000,</div>
 <div class="line"><a id="l02785" name="l02785"></a><span class="lineno"> 2785</span>            .thermistor_Beta = 4300,</div>
 <div class="line"><a id="l02786" name="l02786"></a><span class="lineno"> 2786</span>            .temperatureEnabled = <span class="keyword">true</span>,</div>
-<div class="line"><a id="l02787" name="l02787"></a><span class="lineno"> 2787</span>            .temp_limit = 90,</div>
-<div class="line"><a id="l02788" name="l02788"></a><span class="lineno"> 2788</span>            .currentScaler = 2.5 / (0x7fff * 60.0 * 0.0015), <span class="comment">// w. 60x 1.5mOhm sensor</span></div>
+<div class="line"><a id="l02787" name="l02787"></a><span class="lineno"> 2787</span>            .temp_limit = 70,</div>
+<div class="line"><a id="l02788" name="l02788"></a><span class="lineno"> 2788</span>            .currentScaler = 2.5 / (0x7fff * 50.0 * 0.0015), <span class="comment">// w. 60x 1.5mOhm sensor</span></div>
 <div class="line"><a id="l02789" name="l02789"></a><span class="lineno"> 2789</span>            .brakeLimLow = 50700,</div>
 <div class="line"><a id="l02790" name="l02790"></a><span class="lineno"> 2790</span>            .brakeLimHigh = 50900,</div>
 <div class="line"><a id="l02791" name="l02791"></a><span class="lineno"> 2791</span>            .vmScaler = (2.5 / 0x7fff) * ((1.5+71.5)/1.5),</div>
 <div class="line"><a id="l02792" name="l02792"></a><span class="lineno"> 2792</span>            .vSenseMult = VOLTAGE_MULT_DEFAULT,</div>
-<div class="line"><a id="l02793" name="l02793"></a><span class="lineno"> 2793</span>            .bbm = 20</div>
+<div class="line"><a id="l02793" name="l02793"></a><span class="lineno"> 2793</span>            .bbm = 50</div>
 <div class="line"><a id="l02794" name="l02794"></a><span class="lineno"> 2794</span>        };</div>
 <div class="line"><a id="l02795" name="l02795"></a><span class="lineno"> 2795</span>        this-&gt;<a class="code hl_variable" href="class_t_m_c4671.html#a71f292d9a5ce7fc529ba29bd2fd22fc5">conf</a>.<a class="code hl_variable" href="struct_t_m_c4671_main_config.html#a6ed867e2405bb2091e9a4c5bd7a32eb9">hwconf</a> = newHwConf;</div>
 <div class="line"><a id="l02796" name="l02796"></a><span class="lineno"> 2796</span>        <span class="comment">// Activates around 60V as last resort failsave. Check offsets from tmc leakage. ~ 1.426V</span></div>
