@@ -22,8 +22,8 @@ var searchData=
   ['input_5fmode_5fvel_5framp_19',['INPUT_MODE_VEL_RAMP',['../_o_drive_c_a_n_8h.html#af21aeb1ceaadca1a54dd9286cbffd9b5aef3fceec769ed7b1234ecc13ac9d1f1b',1,'ODriveCAN.h']]],
   ['instance_20',['instance',['../_command_handler_8h.html#a13a18e5b49561a2f007205dc0afeea14a7123a699d77db6479a1d8ece2c4f1c16',1,'CommandHandler.h']]],
   ['int_21',['INT',['../_command_handler_8h.html#a9c4555f6fe97545f2480f26071a2935fa53f93baa3057821107c750323892fa92',1,'CommandHandler.h']]],
-  ['int_5fdevice_5fstatus_5fmask_22',['INT_DEVICE_STATUS_MASK',['../dcd__lpc__ip3511_8c.html#a2397dacb6bf5299415d295e773dfeb44a239a71aa414ba97b3c178de1d81fe639',1,'dcd_lpc_ip3511.c']]],
-  ['int_5fsof_5fmask_23',['INT_SOF_MASK',['../dcd__lpc__ip3511_8c.html#a2397dacb6bf5299415d295e773dfeb44a1a3a19bb5c2aac3dbfc071dc987ba419',1,'dcd_lpc_ip3511.c']]],
+  ['int_5fdevice_5fstatus_5fmask_22',['INT_DEVICE_STATUS_MASK',['../dcd__lpc__ip3511_8c.html#a9518a3404bd026855478f241a3720bf1a239a71aa414ba97b3c178de1d81fe639',1,'dcd_lpc_ip3511.c']]],
+  ['int_5fsof_5fmask_23',['INT_SOF_MASK',['../dcd__lpc__ip3511_8c.html#a9518a3404bd026855478f241a3720bf1a1a3a19bb5c2aac3dbfc071dc987ba419',1,'dcd_lpc_ip3511.c']]],
   ['interface_5finvalid_5fnumber_24',['INTERFACE_INVALID_NUMBER',['../tusb__types_8h.html#a68c01102755fc7d1c810bb0b0635fa90a864a113f67c0537a7d0cfd1df7c04974',1,'tusb_types.h']]],
   ['internal_25',['Internal',['../_class_i_ds_8h.html#a79467dc849dd02adbaa4373bbd7aba75aafbf0897a5a83fdd873dfb032ec695d3',1,'ClassIDs.h']]],
   ['intr_5ferror_26',['INTR_ERROR',['../dcd__ci__hs_8c.html#a85c7862086c1f92e4fb4108e176d8140aee506dc1e76c6f74d9ea1d8828eb5c96',1,'dcd_ci_hs.c']]],
@@ -35,6 +35,6 @@ var searchData=
   ['intr_5fusb_32',['INTR_USB',['../dcd__ci__hs_8c.html#a85c7862086c1f92e4fb4108e176d8140af91bef7c3405bbd07cbe778d6cd01a1d',1,'dcd_ci_hs.c']]],
   ['invert_33',['invert',['../class_can_buttons.html#a754ffff3064b81506b96e59d93099e19a20e57f32ba12b9cd13ebe9ef5e32d949',1,'CanButtons::invert()'],['../_axis_8h.html#ad3ecb30741dcdb99ec2fc80ca6fff715a20e57f32ba12b9cd13ebe9ef5e32d949',1,'invert():&#160;Axis.h'],['../class_p_c_f8574_buttons.html#a4968701182a9f51430d9c750d6375b70a20e57f32ba12b9cd13ebe9ef5e32d949',1,'PCF8574Buttons::invert()']]],
   ['invertforce_34',['invertForce',['../class_t_m_c4671.html#a383a82ab842490e325553e9365028a27ab4f0f19e27f41a19f5a95695d51f43be',1,'TMC4671']]],
-  ['iopins1_5faddr_35',['IOPINS1_ADDR',['../hcd__max3421_8c.html#a10e74d65d7876276a8f6061c71dcf469a46bcaa704aa401fbbe0a5f9896be68b4',1,'hcd_max3421.c']]],
-  ['iopins2_5faddr_36',['IOPINS2_ADDR',['../hcd__max3421_8c.html#a10e74d65d7876276a8f6061c71dcf469a81fc9a6c7f3d5673e115151be2fff402',1,'hcd_max3421.c']]]
+  ['iopins1_5faddr_35',['IOPINS1_ADDR',['../hcd__max3421_8c.html#a1f3b6c692395e5007ff47ce5d9304c1ca46bcaa704aa401fbbe0a5f9896be68b4',1,'hcd_max3421.c']]],
+  ['iopins2_5faddr_36',['IOPINS2_ADDR',['../hcd__max3421_8c.html#a1f3b6c692395e5007ff47ce5d9304c1ca81fc9a6c7f3d5673e115151be2fff402',1,'hcd_max3421.c']]]
 ];

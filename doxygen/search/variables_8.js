@@ -140,7 +140,7 @@ var searchData=
   ['hwconf_137',['hwconf',['../struct_t_m_c4671_main_config.html#a6ed867e2405bb2091e9a4c5bd7a32eb9',1,'TMC4671MainConfig']]],
   ['hwupm_138',['HWUPM',['../struct__ccrx__evenaccess.html#ae5c561562f4bfcf41e507c70a807b9b0',1,'_ccrx_evenaccess']]],
   ['hwvers_139',['hwvers',['../struct_t_u___a_t_t_r___p_a_c_k_e_d.html#aaaca6ddf2dabbef9f9a1635c6505a1bb',1,'TU_ATTR_PACKED']]],
-  ['hwvers_5fbit_140',['hwvers_bit',['../struct_t_u___a_t_t_r___p_a_c_k_e_d.html#a8f9f7cb7589298634998c7c1b8f6d38d',1,'TU_ATTR_PACKED']]],
+  ['hwvers_5fbit_140',['hwvers_bit',['../struct_t_u___a_t_t_r___p_a_c_k_e_d.html#a7d7eb0aab16fa7a42c31388c4b8fa5be',1,'TU_ATTR_PACKED']]],
   ['hwversion_141',['hwVersion',['../struct_t_m_c4671_hardware_type_conf.html#abf7034af3f8cc520a81922b183d4436c',1,'TMC4671HardwareTypeConf']]],
   ['hxfr_142',['hxfr',['../structmax3421__data__t.html#a74a76bfcc12d384654a115246e22d57f',1,'max3421_data_t::hxfr()'],['../structmax3421__ep__t.html#a675a7ca3700958f339aa42056817dc41',1,'max3421_ep_t::hxfr()']]],
   ['hxfr_5fbm_143',['hxfr_bm',['../structmax3421__data__t.html#a4401e2f2427962f10752f943cbeefae4',1,'max3421_data_t::hxfr_bm()'],['../structmax3421__ep__t.html#ab2ac0e46f3575f3cdbf0566269a2465f',1,'max3421_ep_t::hxfr_bm()']]]
